@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portofolio</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Navigation Bar -->
+        <nav>
+            <div class="logo">folio<b>.</b></div>
+            <ul class="navItems">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">skills</a></li>
+                <li><a href="#">blog</a></li>
+            </ul>
+            <div class="links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </nav>
+        <!-- Navigation End -->
+
+        <!-- Wrapper -->
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1>I'm <span class="multiText">Coder</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum odit impedit rerum, magnam libero
+                    sequi officiis excepturi omnis. Similique nesciunt in iure, officia unde reiciendis veritatis
+                    provident dolorem quam autem.</p>
+                    <div class="btns">
+                        <button class="download CV"></button>
+                        <button class="hire me!"></button>
+                    </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="assets/foto/splash.png" id="splash">
+                    <img src="assets/foto/background.png" alt="ini foto kuromi" >
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect = new Typed(".multiText", {
+            strings: ["Coder", "Youtuber", "Designer"],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1500
+        })
+    </script>
+</body>
+
+</html>

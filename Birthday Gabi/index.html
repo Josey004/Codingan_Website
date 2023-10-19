@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close">
+            <i class="fa-solid fa-xmark"></i>
+        </span>
+        <!-- LOGIN -->
+        <div class="form-box login">
+            <h2>Login</h2>
+            <!-- <form action="#"> -->
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-user"></i>
+                    </span>
+                    <input type="email" id="emailInput">
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-lock"></i>
+                    </span>
+                    <input type="password" required id="passwordInput">
+                    <label>Password</label>
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox"> Pacarnya Josey</label>
+                </div>
+                <!-- <button onclick="onLogin()" id="btn">Login</button> -->
+                <button onclick="onLogin()" id="btn">Login</button>
+            <!-- </form> -->
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="login.js"></script>
+</body>
+
+</html>

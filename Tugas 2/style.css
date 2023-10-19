@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px 10px 10px 10px;
+    background-color: #F1DEC9;
+    padding: 10px;
+}
+
+form {
+    background-color: #F1DEC9;
+    height: auto;
+    padding: 10px;
+}
+
+header {
+    padding: 0 40px;
+    display: flex;
+    justify-content: left;
+
+}
+
+main {
+    background-color: #F1DEC9;
+    padding-left: 120px;
+    padding-right: 40px;
+}
+
+.judul {
+    text-align: left;
+    /* background-color: #8D7B68; */
+    width: 70%;
+    padding: 10px;
+}
+
+.logo {
+    width: 30%;
+    /* background-color: #8D7B68; */
+    text-align: center;
+}
+
+.logo img {
+    width: 70%;
+    height: 100%;
+}
+
+.namaLengkap {
+    padding: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    background-color: #C8B6A6;
+    display: flex;
+    border-radius: 15px;
+}
+
+.container1 {
+    display: flex;
+    background-color: #F1DEC9;
+    border-radius: 15px;
+    gap: 50px;
+    align-items: center;
+}
+
+.column {
+    background-color: #8D7B68;
+    border-radius: 15px;
+    color: white;
+    width: 60%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.column1 {
+    /* justify-content: center; */
+    align-items: center;
+    /* box-sizing: border-box; */
+    /* display: inline-block; */
+    /* width: 300px; */
+    gap: 50px;
+    /* background-color: ; */
+}
+
+.jenisKelamin {
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.kenegaraan {
+    padding: 5px;
+    display: flex;
+    gap: 150px;
+    align-items: center;
+}
+
+.negara {
+    padding: 5px;
+    display: flex;
+    align-items:baseline;
+    text-align: right;
+}
+
+.ibu {
+    padding: 5px;
+    display: flex;
+}
+
+.tempatLahir {
+    padding: 5px;
+    display: flex;
+    gap: 120px;
+}
+
+.jenisIdentitas {
+    padding: 5px;
+}
+
+.nomorIdentitas {
+    padding: 5px;
+    display: flex;
+    gap: 500px;
+}
+
+.pendidikan {
+    padding: 5px;
+}
+
+.agama {
+    padding: 5px;    
+}
+
+.status {
+    padding: 5px;
+    display: flex;
+    gap: 422px;
+}
+
+.statusPerkawinan {
+    padding: 5px;
+}
+
+.kodePos {
+    padding: 5px;
+}
+
+.alamat {
+    padding: 5px;
+    display: flex;
+    gap: 400px;
+    align-items: center;
+}
+
+.informasi {
+    padding: 5px;
+    display: flex;
+    gap: 50px;
+}
+
+.JenisPekerjaan {
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lamakerja input {
+    width: 1em;
+    height: 1em;
+    font-size: 1.3em;
+    text-align: center;
+    border: 0px solid #ccc;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 5px;
+}
+
+.pekerjaan {
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.Kantor {
+    justify-content: center;
+    align-items: center;
+}
+
+.bdlmkerja {
+    padding: px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.nasabah {
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.npwp input {
+    width: 1em;
+    height: 1em;
+    font-size: 1.3em;
+    text-align: center;
+    border: 0px solid #ccc;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 5px;
+}
+
+.almkantor {
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.rtrw input {
+
+    width: 1em;
+    height: 1em;
+    font-size: 1.3em;
+    text-align: center;
+    border: 0px solid #ccc;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 5px;
+}
+
+.rtkel {
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.rtrw2 input {
+    width: 1em;
+    height: 1em;
+    font-size: 1.3em;
+    text-align: center;
+    border: 0px solid #ccc;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 5px;
+}
+
+.tmpkantor {
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.tmp2kantor {
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.tmp3kantor {
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.kdpos input {
+    width: 1em;
+    height: 1em;
+    font-size: 1.3em;
+    text-align: center;
+    border: 0px solid #ccc;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 5px;
+}
+
+.penghasilannasabah {
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.penghasilannasabah label {
+    margin-right: 20px;
+}
+
+.penghasilannasabah input {
+    margin-right: 20px;
+}
+
+.transaksi {
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.transaksi label {
+    margin-right: 20px;
+}
+
+.transaksi input {
+    margin-right: 20px;
+}
+
+.SUtama {
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.SUtama label {
+    margin-right: 20px;
+}
+
+.SUtama input {
+    margin-right: 20px;
+}
+
+.rek {
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.semuabank {
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.semuabank2 {
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.rek label {
+    margin-right: 202px;
+}
+
+.rekbankbri input {
+    width: 1em;
+    height: 1em;
+    font-size: 1.3em;
+    text-align: center;
+    border: 0px solid #ccc;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0;
+}
+
+.rekbankbri2 input {
+    width: 1em;
+    height: 1em;
+    font-size: 1.3em;
+    text-align: center;
+    border: 0px solid #ccc;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0;
+}
+
+.banklain4 {
+    margin-left: 373px;
+}
+
+.kredit {
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.kredit label {
+    margin-right: 70px
+}
+
+.kreditbank {
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.version input {
+    margin-left: 10px;
+}
+
+.bank1 {
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.penerbit label {
+    margin-left: 148px;
+}
+
+.penerbit2 label {
+    margin-left: 138px;
+}

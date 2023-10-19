@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+
+
+
+<body>
+    <form class="form">
+        <!-- HEADER -->
+        <header>
+            <div class="judul">
+                <h1>Formulir Aplikasi Rekening Perorangan</h1>
+
+                <div>
+                    <p>
+                        Disi oleh Bank
+                    </p>
+                    <input type="text">
+                    <!-- <h1>Formulir Aplikasi Rekening Perorangan</h1> -->
+
+                </div>
+
+            </div>
+            <div class="logo">
+                <img src="bni.png" alt="haiii">
+                <!-- <h1>Formulir Aplikasi Rekening Perorangan</h1> -->
+            </div>
+            <!-- HEADER END -->
+        </header>
+        <!-- CONTENT -->
+        <main>
+            <!-- Nama Lengkap -->
+            <section>
+                <p><b>Mohon diisi </b></p>
+                <div class="namaLengkap">
+                    <div>
+                        <label for="">Nama Lengkap : </label>
+                        <input type="text" name="namaLengkap" id="namaLengkap">
+
+                    </div>
+                </div>
+                <p>Nama sesuai Kartu ID : Diinput langsung oleh Petugas ke sistem</p>
+            </section>
+            <!-- Nama Lengkap END -->
+
+            <!-- DATA NASABAH & PRIBADI -->
+            <section>
+                <div class="container">
+                    <div class="column">
+                        <h3>1. DATA NASABAH</h3>
+                    </div>
+                </div>
+                <div class="container1">
+                    <div class="column">
+                        <h3>DATA PRIBADI</h3>
+                    </div>
+                    <div class="column1">
+                        <input type="checkbox">
+                        <label for="">Baru</label>
+                        <input type="checkbox">
+                        <label for="">Pengkinian</label>
+                    </div>
+                </div>
+                <div class="jenisKelamin">
+                    <label for="jenisK">Jenis Kelamin &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                    <input type="radio" id="pria" value="pria" name="group1">
+                    <label for="pria">Pria&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                    <input type="radio" id="wanita" value="wanita" name="group1">
+                    <label for="wanita">Wanita</label>
+                </div>
+            </section>
+            <!-- DATA NASABAH & PRIBADI END -->
+
+            <!-- KEWARGANEGARAAN -->
+
+            <section>
+                <div class="kenegaraan">
+                    <div class="kewarganegaraan">
+                        <label for="kewarganegaraan">Kewarganegaraan : &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                        <input type="checkbox">
+                        <label for="WNI">WNI&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                        <input type="checkbox">
+                        <label for="WNI">WNA</label>
+                    </div>
+                    <div class="negara">
+                        <label for="negara">Negara &nbsp: &nbsp&nbsp</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="tempatLahir">
+                    <div class="Lahir">
+                        <label for="lahir">Tempat Lahir &nbsp&nbsp: &nbsp&nbsp</label>
+                        <input type="text" name="lahit" id="tLahir">
+                    </div>
+                    <div class="tanggalLahir">
+                        <label for="tanggal">Tanggal Lahir &nbsp: &nbsp&nbsp</label>
+                        <input type="text" name="tglLahir" id="tglLahir">
+                    </div>
+                </div>
+            </section>
+            <!-- KEWARGANEGARAAN END -->
+
+            <!-- Nama Ibu -->
+            <section>
+                <div class="ibu">
+                    <label for="ibu">Nama gadis ibu kandung : </label>
+                    <input type="text" name="ibu" id="namaIbu">
+                </div>
+            </section>
+            <!-- Nama Ibu  END-->
+
+            <!-- Identitas -->
+            <section>
+                <div class="jenisIdentitas">
+                    <label for="">Jenis Identitas : </label>
+                    <input type="checkbox" name="identitas" id="identitas1">
+                    <label for="">KTP</label>
+                    <input type="checkbox" name="identitas" id="identitas2">
+                    <label for="">SIM</label>
+                    <input type="checkbox" name="identitas" id="identitas3">
+                    <label for="">Passport dilampiri KITAP/KITAS/KIMS</label>
+                </div>
+
+                <div>
+                    <div class="nomorIdentitas">
+                        <div class="nomor">
+                            <label for="">Nomor Identitas : </label>
+                            <input type="text" name="nomor" id="nomor">
+                        </div>
+                        <div class="tanggal">
+                            <label for="">Tanggal Terbit : </label>
+                            <input type="date" name="tanggal" id="tanggal1">
+                            <label for=""><br> Tanggal Kadaluarsa : </label>
+                            <input type="date" name="tanggal" id="tanggal2">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Identitas END -->
+
+            <!-- Pendidikan -->
+            <div class="pendidikan">
+                <label for="">Pendidikan Terakhir : </label>
+                <input type="radio" name="Pendidikan" id="pendidikan0">
+                <label for="">SD</label>
+                <input type="radio" name="Pendidikan" id="pendidikan1">
+                <label for="">SLTP</label>
+                <input type="radio" name="Pendidikan" id="pendidikan2">
+                <label for="">SLTA</label>
+                <input type="radio" name="Pendidikan" id="pendidikan3">
+                <label for="">S1</label>
+                <input type="radio" name="Pendidikan" id="pendidikan4">
+                <label for="">S1</label>
+                <input type="radio" name="Pendidikan" id="pendidikan5">
+                <label for="">S2</label>
+                <input type="radio" name="Pendidikan" id="pendidikan6">
+                <label for="">Lainnya</label>
+            </div>
+            <!-- Pendidikan END -->
+
+            <!-- Agama -->
+            <div class="agama">
+                <label for="">Agama : </label>
+                <input type="radio" name="Agama" id="Agama1">
+                <label for="">Islam</label>
+                <input type="radio" name="Agama" id="Agama2">
+                <label for="">Katolik</label>
+                <input type="radio" name="Agama" id="Agama3">
+                <label for="">Protestan</label>
+                <input type="radio" name="Agama" id="Agama4">
+                <label for="">Buddha</label>
+                <input type="radio" name="Agama" id="Agama5">
+                <label for="">Hindu</label>
+                <input type="radio" name="Agama" id="Agama">
+                <label for="">Lainnya</label>
+                <!-- Agama END -->
+
+                <!-- Status -->
+                <section>
+                    <div class="status">
+                        <div class="statusPerkawinan">
+                            <label for="">Status Perkawinan : </label>
+                            <input type="checkbox" name="Status" id="status1">
+                            <label for="">Lajang : </label>
+                            <input type="checkbox" name="Status" id="status2">
+                            <label for="">Kawin</label>
+                            <input type="checkbox" name="Status" id="status3">
+                            <label for="">Janda/Duda</label>
+                        </div>
+                        <div class="hobiNasabah">
+                            <label for="">Hobi Nasabah : </label>
+                            <input type="text" name="hobi" id="hobi">
+                        </div>
+                    </div>
+                </section>
+                <!-- Status END -->
+
+                <!-- Kode Pos -->
+                <div class="kodePos">
+                    <label for="">Kode Pos sesuai alamat pada ID : </label>
+                    <input type="text" name="kode" id="kode">
+                </div>
+                <!-- Kode Pos END -->
+
+                <label for=""><b>Alamat Domisili ( Diisi hanya apabila berbeda dengan alamat pada Identitas) :
+                    </b></label>
+                <input type="text" name="option" id="option"><br>
+                <input type="text" name="option" id="option">
+
+                <!-- RT/RW Kelurahan/Desa -->
+                <section>
+                    <div class="alamat">
+                        <div class="rtrw">
+                            <label for="" class="">RT/RW :</label>
+                            <input type="text" name="npwp1" maxlength="1">
+                            <input type="text" name="npwp2" maxlength="1">
+                            <input type="text" name="npwp3" maxlength="1">
+                            &nbsp&nbsp&nbsp
+                            <input type="text" name="npwp3" maxlength="1">
+                            <input type="text" name="npwp3" maxlength="1">
+                            <input type="text" name="npwp3" maxlength="1">
+                        </div>
+                        <div class="desa">
+                            <label for="">Kelurahan/Desa : </label>
+                            <input type="text" name="desa" id="desa">
+                        </div>
+                    </div>
+                </section>
+                <!-- RT/RW Kelurahan/Desa END-->
+
+                <!-- Kecamatan/Kota -->
+                <section>
+                    <div class="alamat">
+                        <div class="rt">
+                            <label for="">Kecamatan : </label>
+                            <input type="text" name="Kecamatan" id="kecamatan">
+                        </div>
+                        <div class="desa">
+                            <label for="">Kota : </label>
+                            <input type="text" name="Kota" id="kota">
+                        </div>
+                    </div>
+                </section>
+                <!-- Kecamatan/Kota END -->
+
+                <!-- Propinsi -->
+                <section>
+                    <div class="alamat">
+                        <div class="propinsi">
+                            <label for="">RT/RW : </label>
+                            <input type="text" name="Propinsi" id="propinsi">
+                        </div>
+                        <div class="kodePos">
+                            <label for="">Kode Pos : </label>
+                            <input type="text" name="Pos" id="pos">
+                        </div>
+                    </div>
+                </section>
+                <!-- Propinsi END -->
+
+                <!-- Informasi Kontak -->
+                <section>
+                    <div class="informasi">
+                        <label for=""><b>Informasi Kontak : </b></label>
+                        <br>
+                        <div class="Telepon">
+                            <label for="">Telepon : </label>
+                            <input type="text" name="telepon" id="telepon">
+                            <br>
+                            <label for="">Faksmili : </label>
+                            <input type="text" name="faksmili" id="faksmili">
+                            <br>
+                        </div>
+                        <div class="handphone">
+                            <label for="">Handphone : </label>
+                            <input type="text" name="handphone" id="handphone">
+                            <br>
+                            <label for="">Email : </label>
+                            <input type="email" name="email" id="email">
+                            <br>
+                        </div>
+                    </div>
+                </section>
+                <!-- Informasi Kontak END -->
+
+                <section>
+                    <div class="container">
+                        <div class="column">
+                            <h3>DATA PEKERJAAN</h3>
+                        </div>
+                    </div>
+
+                </section>
+
+                <!--Jenis Pekerjaan  -->
+                <section>
+                    <div class="JenisPekerjaan">
+                        <label for="">Jenis Pekerjaan:&nbsp&nbsp&nbsp</label>
+                        <input type="checkbox" id="pns" value="pns" name="group1">
+                        <label for="pns">PNS&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                        <input type="checkbox" id="tni" value="tni" name="group1">
+                        <label for="tni">TNI/Polri&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                        <input type="checkbox" id="pegswasta" value="pegswasta" name="group1">
+                        <label for="pegswasta">Peg. Swasta&nbsp&nbsp&nbsp</label>
+
+                        <input type="checkbox" id="pegbumn" value="pegbumn" name="group1">
+                        <label for="pegbumn">Peg. BUMN&nbsp&nbsp&nbsp</label>
+                        <input type="checkbox" id="professional" value="professional" name="group1">
+                        <label for="professional">Professional&nbsp&nbsp&nbsp</label>
+                        <br>
+                        <label for="">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                            &nbsp&nbsp&nbsp
+                        </label>
+                        <input type="checkbox" id="wiraswasta" value="wiraswasta" name="group1">
+                        <label for="wiraswasta">Wiraswasta&nbsp&nbsp&nbsp</label>
+                        <input type="checkbox" id="lainnya" value="lainnya" name="group1">
+                        <label for="lainnya">Lainnya&nbsp&nbsp&nbsp</label>
+                        <input type="text" name="lainnya" id="lainnya" size="50">
+                    </div>
+                </section>
+
+                <!-- Nama Kantor -->
+                <section>
+                    <div class="pekerjaan">
+                        <div class="Kantor">
+                            <label for="nmkantor">Nama Kantor/Tempat Bekerja:&nbsp&nbsp&nbsp</label>
+                            <input type="text" name="nmkantor" id="nmkantor" size="78">
+                            <br>
+                        </div>
+                        <div class="bdlmkerja">
+                            <div class="bidangkerja">
+                                <label for="bdkerja">Bidang Pekerjaan&nbsp&nbsp&nbsp:&nbsp&nbsp&nbsp</label>
+                                <input type="text" name="bdkerja" id="bdkerja" size="50">
+                            </div>
+                            <div class="lamakerja">
+                                <label for="">Lama Bekerja :</label>
+                                <input type="text" name="th1" maxlength="1">
+                                <input type="text" name="th2" maxlength="1">
+                                <label for="tahun">Tahun&nbsp</label>
+                                <input type="text" name="bl1" maxlength="1">
+                                <input type="text" name="bl2" maxlength="1">
+                                <label for="bulan">Bulan</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nasabah">
+                        <div class="jabatan">
+                            <label for="jabatan">Jabatan:</label>
+                            <input type="text" name="jabatan" size="50">
+                        </div>
+                        <div class="npwp">
+                            <label for="">NPWP Nasabah :</label>
+                            <input type="text" name="npwp1" maxlength="1">
+                            <input type="text" name="npwp2" maxlength="1">
+                            <input type="text" name="npwp3" maxlength="1">
+                            <input type="text" name="npwp4" maxlength="1">
+                            <input type="text" name="npwp5" maxlength="1">
+                            <input type="text" name="npwp6" maxlength="1">
+                            <input type="text" name="npwp7" maxlength="1">
+                            <input type="text" name="npwp8" maxlength="1">
+                            <input type="text" name="npwp9" maxlength="1">
+                            <input type="text" name="npwp10" maxlength="1">
+                            <input type="text" name="npwp11" maxlength="1">
+                            <input type="text" name="npwp12" maxlength="1">
+                            <input type="text" name="npwp13" maxlength="1">
+                            <input type="text" name="npwp14" maxlength="1">
+                            <input type="text" name="npwp15" maxlength="1">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Alamat kantor -->
+                <section>
+                    <div class="almkantor">
+                        <label for="almkantor" class="">Alamat Kantor/Tempat Bekerja :</label>
+                        <input type="text" class="" size="78">
+                    </div>
+                    <div class="rtkel">
+                        <div class="rtrw">
+                            <label for="" class="">RT/RW :</label>
+                            <input type="text" name="npwp1" maxlength="1">
+                            <input type="text" name="npwp2" maxlength="1">
+                            <input type="text" name="npwp3" maxlength="1">
+                        </div>
+                        <div class="rtrw2">
+                            &nbsp&nbsp&nbsp&nbsp
+                            <input type="text" name="npwp1" maxlength="1">
+                            <input type="text" name="npwp2" maxlength="1">
+                            <input type="text" name="npwp3" maxlength="1">
+                        </div>
+                        <div class="kel">
+                            <label for="kel">Kelurahan/Desa</label>
+                            <input type="text" class="">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- tempat Kantor  -->
+                <section>
+                    <div class="tmpkantor">
+                        <div class="kec">
+                            <label for="" class="">Kecamatan:</label>
+                            <input type="text" class="" size="40">
+                        </div>
+                        <div class="kot">
+                            <label for="" class="">&nbsp&nbspKota :</label>
+                            <input type="text" class="" size="40">
+                        </div>
+                    </div>
+                    <div class="tmp2kantor">
+                        <div class="provinsi">
+                            <label for="">Provinsi :</label>
+                            <input type="text" size="40">
+                        </div>
+                        <div class="kdpos">
+                            <label for="">Kode Pos :</label>
+                            <input type="text" name="kdpos1" maxlength="1">
+                            <input type="text" name="kdpos2" maxlength="1">
+                            <input type="text" name="kdpos3" maxlength="1">
+                            <input type="text" name="kdpos4" maxlength="1">
+                            <input type="text" name="kdpos5" maxlength="1">
+                            <input type="text" name="kdpos6" maxlength="1">
+                            <input type="text" name="kdpos7" maxlength="1">
+                        </div>
+                    </div>
+                    <div class="tmp2kantor">
+                        <div class="telp">
+                            <label for="">Telepon :</label>
+                            <input type="text" size="40">
+                            <label for="text">&nbsp&nbspFaksmili</label>
+                            <input type="text" class="" size="40">
+                        </div>
+                    </div>
+                    <div class="tmp3kantor">
+                        <div class="surat">
+                            <label for=""><b>Alamat Surat Menyurat&nbsp&nbsp
+                                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b></label>
+                            <input type="checkbox">
+                            <label for="" class="">Sesuai ID&nbsp&nbsp&nbsp&nbsp</label>
+                            <input type="checkbox">
+                            <label for="">Sesuai Domisili&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                            <input type="checkbox" class="">
+                            <label for="" class="">Kantor/Tempat Bekerja</label>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Data Keuangan -->
+                <section>
+                    <div class="container">
+                        <div class="column">
+                            <h3>DATA KEUANGAN</h3>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- penghasilan nasabah -->
+                <section>
+                    <div class="penghasilannasabah">
+                        <label for="">Penghasilan Nasabah perbulan :</label>
+                        <input type="checkbox">
+                        <label for="">s/d 5 Juta</label>
+                        <input type="checkbox">
+                        <label for="">5-10 Juta</label>
+                        <input type="checkbox">
+                        <label for="">10-50 Juta</label>
+                        <input type="checkbox">
+                        <label for="">50-100 Juta</label>
+                        <input type="checkbox">
+                        <label for="">diatas 100 Juta</label>
+                    </div>
+                    <div class="transaksi">
+                        <label for="">Transaksi Normal Harian :</label>
+                        <input type="checkbox">
+                        <label for="">s/d 10 Juta</label>
+                        <input type="checkbox">
+                        <label for="">s/d 50 Juta</label>
+                        <input type="checkbox">
+                        <label for="">s/d 100 Juta</label>
+                        <input type="checkbox">
+                        <label for="">s/d 1 Miliar</label>
+                        <input type="checkbox">
+                        <label for="">diatas 1 Miliar</label>
+                    </div>
+                    <div class="SUtama">
+                        <label for="" class="">Sumber Utama :</label>
+                        <input type="checkbox">
+                        <label for="" class="">Gaji</label>
+                        <input type="checkbox" class="">
+                        <label for="" class="">Hasil Usaha</label>
+                        <label for="">Lainnya</label>
+                        <input type="text" class="" size="30">
+                    </div>
+                </section>
+
+                <!-- Rekening -->
+                <div class="rek">
+                    <label for="" class="">Rekening di BANK BRI :</label>
+                    <label for="" class="">Rekening di BANK LAIN:</label>
+                </div>
+                <div class="semuabank">
+                    <div class="rekbankbri">
+                        <input type="text" name="kdpos1" maxlength="1">
+                        <input type="text" name="kdpos2" maxlength="1">
+                        <input type="text" name="kdpos3" maxlength="1">
+                        <input type="text" name="kdpos4" maxlength="1">
+                        <input type="text" name="kdpos5" maxlength="1">
+                        <input type="text" name="kdpos6" maxlength="1">
+                        <input type="text" name="kdpos7" maxlength="1">
+                        <input type="text" name="kdpos1" maxlength="1">
+                        <input type="text" name="kdpos2" maxlength="1">
+                        <input type="text" name="kdpos3" maxlength="1">
+                        <input type="text" name="kdpos4" maxlength="1">
+                        <input type="text" name="kdpos5" maxlength="1">
+                        <input type="text" name="kdpos6" maxlength="1">
+                        <input type="text" name="kdpos7" maxlength="1">
+                        <input type="text" name="kdpos7" maxlength="1">
+                    </div>
+                    <div class="banklain">
+                        <label for="" class="">Bank :</label>
+                        <input type="text" class="" size="50">
+                    </div>
+                </div>
+                <div class="semuabank2">
+                    <div class="rekbankbri2">
+                        <input type="text" name="kdpos1" maxlength="1">
+                        <input type="text" name="kdpos2" maxlength="1">
+                        <input type="text" name="kdpos3" maxlength="1">
+                        <input type="text" name="kdpos4" maxlength="1">
+                        <input type="text" name="kdpos5" maxlength="1">
+                        <input type="text" name="kdpos6" maxlength="1">
+                        <input type="text" name="kdpos7" maxlength="1">
+                        <input type="text" name="kdpos1" maxlength="1">
+                        <input type="text" name="kdpos2" maxlength="1">
+                        <input type="text" name="kdpos3" maxlength="1">
+                        <input type="text" name="kdpos4" maxlength="1">
+                        <input type="text" name="kdpos5" maxlength="1">
+                        <input type="text" name="kdpos6" maxlength="1">
+                        <input type="text" name="kdpos7" maxlength="1">
+                        <input type="text" name="kdpos7" maxlength="1">
+                    </div>
+                    <div class="banklain2">
+                        <label for="" class="">Jenis :</label>
+                        <input type="checkbox" class="">
+                        <label for="" class="">Tabungan</label>
+                        <input type="checkbox" class="">
+                        <label for="" class="">Deposito</label>
+                        <input type="checkbox" class="">
+                        <label for="" class="">Pinjaman</label>
+                        <input type="checkbox" class="">
+                        <label for="" class="">Giro</label>
+                        <input type="checkbox" class="">
+                        <label for="" class="">Lainnya</label>
+                        <input type="text" class="">
+                    </div>
+                </div>
+                <div class="semuabank">
+                    <div class="rekbankbri">
+                        <input type="text" name="kdpos1" maxlength="1">
+                        <input type="text" name="kdpos2" maxlength="1">
+                        <input type="text" name="kdpos3" maxlength="1">
+                        <input type="text" name="kdpos4" maxlength="1">
+                        <input type="text" name="kdpos5" maxlength="1">
+                        <input type="text" name="kdpos6" maxlength="1">
+                        <input type="text" name="kdpos7" maxlength="1">
+                        <input type="text" name="kdpos1" maxlength="1">
+                        <input type="text" name="kdpos2" maxlength="1">
+                        <input type="text" name="kdpos3" maxlength="1">
+                        <input type="text" name="kdpos4" maxlength="1">
+                        <input type="text" name="kdpos5" maxlength="1">
+                        <input type="text" name="kdpos6" maxlength="1">
+                        <input type="text" name="kdpos7" maxlength="1">
+                        <input type="text" name="kdpos7" maxlength="1">
+                    </div>
+                    <div class="banklain">
+                        <label for="" class="">Bank :</label>
+                        <input type="text" class="" size="50">
+                    </div>
+                </div>
+                <div class="semuabank">
+
+                    <div class="banklain4">
+                        <label for="" class="">Jenis :</label>
+                        <input type="checkbox" class="">
+                        <label for="" class="">Tabungan</label>
+                        <input type="checkbox" class="">
+                        <label for="" class="">Deposito</label>
+                        <input type="checkbox" class="">
+                        <label for="" class="">Pinjaman</label>
+                        <input type="checkbox" class="">
+                        <label for="" class="">Giro</label>
+                        <input type="checkbox" class="">
+                        <label for="" class="">Lainnya</label>
+                        <input type="text" class="">
+                    </div>
+                </div>
+                <section>
+                    <div class="kredit">
+                        <label for="" class="">Kartu Kredit BRI :</label>
+                        <label for="" class="">Kartu Kredit Lain :</label>
+                    </div>
+                    <div class="bank1">
+                        <div class="krbri">
+                            <input type="checkbox" class="">
+                            <label for="" class="">Ada</label>
+                        </div>
+                        <div class="penerbit">
+                            <label for="" class="">Penerbit</label>
+                            <input type="text" class="" size="35">
+                        </div>
+                        <div class="version">
+                            <input type="checkbox" class="">
+                            <label for="" class="">Classic</label>
+                            <input type="checkbox" class="">
+                            <label for="" class="">Gold</label>
+                            <input type="checkbox" class="">
+                            <label for="" class="">Platinum</label>
+                        </div>
+                    </div>
+                    <div class="bank1">
+                        <div class="krbri">
+                            <input type="checkbox" class="">
+                            <label for="" class="">Tidak</label>
+                        </div>
+                        <div class="penerbit2">
+                            <label for="" class="">Penerbit</label>
+                            <input type="text" class="" size="35">
+                        </div>
+                        <div class="version">
+                            <input type="checkbox" class="">
+                            <label for="" class="">Classic</label>
+                            <input type="checkbox" class="">
+                            <label for="" class="">Gold</label>
+                            <input type="checkbox" class="">
+                            <label for="" class="">Platinum</label>
+                        </div>
+                    </div>
+
+                </section>
+        </main>
+        <!-- CONTENT END -->
+    </form>
+</body>
+
+</html>
